@@ -2,7 +2,7 @@
 console.log("convert string to a number ;")
 var a = "1234"
 console.log(Number(a))
-console.log(typeof a)
+console.log(typeof Number(a), "Type of a")
 
 console.log("---------")
 // Check if a number is integer
@@ -69,13 +69,13 @@ console.log(num.toPrecision(2))
 console.log("----------")
 // Check if a Number is NaN (Not a Number)
 console.log("Check if a Number is NaN ;")
-var n1 = 2;
+var n1 = isNaN(2);
 console.log(n1)
-var n2 = -3;
+var n2 = isNaN(-2);
 console.log(n2)
-var n3 = 2 / 0;
+var n3 = isNaN(3/0);
 console.log(n3)
-var n4 = 'Hello World!'
+var n4 = isNaN('Hello World!')
 console.log(n4)
 
 console.log("----------")
