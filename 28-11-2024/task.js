@@ -1,13 +1,13 @@
 var score;
 score = prompt("Enter Score");
 
-while (score > 100) {
-    alert("Invalid score. Please enter a score between 0 and 100.");
-    score = prompt("Enter score");
-}
-// if(score>100){
-// alert("Invalid score. Please enter a score between 0 and 100.")}
-// score = prompt("Enter score");
+// while (score > 100) {
+//     alert("Invalid score. Please enter a score between 0 and 100.");
+//     score = prompt("Enter score");
+// }
+if(score>100){
+alert("Invalid score. Please enter a score between 0 and 100.")}
+score = prompt("Enter score");
 
 if (score <= 100) {
     if (score >=90 && score <= 100) {

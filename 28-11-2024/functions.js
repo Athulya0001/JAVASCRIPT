@@ -16,8 +16,7 @@ console.log(x());
 console.log('----------')
 
 console.log("IMMEDIATELY INVOKED FUNCTION")
-var result = function() {
+(function() {
     var b = "These functions are executed immediately after they are defined";
     console.log(b)
-};
-result();
+})();
