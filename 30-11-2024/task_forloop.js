@@ -9,34 +9,32 @@ for(i=0;i<=array.length;i++){
 
 console.log("2")
 var a = 1;
-var b = a * a;
 
 for (i=0;i<=5;i++){
-    var c = a += i;
-    console.log(b)
+    a = a + i;
+    console.log(a*a)
 }
 
 console.log("3")
 var x = 0;
 
 for(i=1;i<=10;i++){
-    var sum = x += i;
-    console.log(sum)
+    var sum = x + i;
+    
 }
+console.log(sum)
 
 console.log("4")
-var p = a % 10;
-for(a=0;a<=100;a++){
-    if(p==0){
+
+for(a=1;a<=100;a++){
+    if(a%10==0){
         console.log(a)
     }
 }
 
 console.log("5")
 
-for(i=0;i>0;i++){
-    if(i=i*i,i<=100){
-        console.log(i)
-    }
+for(i=0;i<=5;i++){
+    console.group(i*i*i)
 }
 
