@@ -1,15 +1,14 @@
 console.log("DoWhile Loops")
 
 console.log('1')
-var a = 0;
-var b = 1;
-var sum;
+var x =1;
 do{
-    sum = a += b;
-    b++;
-}while(b<=6);
+    if(x%2==0){
+        console.log(x)
+    }
+    x++
+}while(x<=10);
 
-console.log(sum)
 
 console.log('2')
 var i = 10;
