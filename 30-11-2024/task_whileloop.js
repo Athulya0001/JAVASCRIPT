@@ -29,21 +29,19 @@ while(l>=0){
 }
 
 console.log(4)
-var x = 0;
 var y =1;
 
-while(y<=5){
-    var pow = x*=y;
+while(y<=10){
+    var pow = y*3;
     console.log(pow)
     y++;
 }
 
 console.log(5)
-x = 0;
-y = 1;
+var fruits = ["Apple", "Banana", "Cherry"];
+var index = 0;
 
-while(y<=5){
-    var sum = x += y;
-    console.log(sum)
-    y++;
+while (index < fruits.length) {
+    console.log(fruits[index]);
+    index++;
 }
