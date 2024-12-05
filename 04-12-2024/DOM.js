@@ -1,4 +1,4 @@
-let paragraph=document.getElementById('para-1')
+uplet paragraph=document.getElementById('para-1')
 paragraph.innerText="This is a paragraph"
 
 let para=document.getElementsByTagName('p')[0]
@@ -19,3 +19,5 @@ function mouseOver(){
     let heading=document.getElementById('head-2')
     heading.style.color='green'
 }
+
+
